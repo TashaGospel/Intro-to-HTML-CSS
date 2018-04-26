@@ -1,0 +1,25 @@
+/*@font-face {*/
+/*font-family: "Open Sans";*/
+/*font-weight: regular;*/
+/*src: url("C:\Users\nhanh\Desktop\New folder\OpenSans-Regular");*/
+/*}*/
+
+p {
+    color: rgb(255, 255, 0);
+    background-color: #0000ff;
+    font-family: "Inconsolata-g for Powerline", sans-serif;
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 200%;
+    text-align: center;
+    line-height: 200%;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+iframe {
+    display: block;
+}
