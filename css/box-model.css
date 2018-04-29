@@ -1,0 +1,8 @@
+div {
+    display: inline-block;
+    border: solid #2dedff 5px;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 40%;
+}
