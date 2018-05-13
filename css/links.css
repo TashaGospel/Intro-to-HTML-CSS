@@ -1,0 +1,31 @@
+a {
+    display: block;
+    width: 50%;
+    text-align: center;
+    padding: 4px;
+    margin: 10px auto 0;
+    background-color: #0006cc;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    transition-property: color, background;
+    transition-duration: .25s;
+    transition-timing-function: linear;
+    transition-delay: .25s;
+}
+
+a[href$=".edu"] {
+    color: #ffa200;
+}
+
+a:hover {
+    background: #838383;
+    color: #0006cc;
+}
+
+a:active {
+    border: 3px solid #000000;
+}

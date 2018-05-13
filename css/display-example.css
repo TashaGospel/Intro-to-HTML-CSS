@@ -29,3 +29,12 @@ div {
     /*overflow: auto;*/
     clear: right;
 }
+
+img {
+    display: block;
+    transition: transform .5s linear .25s;
+}
+
+img:hover {
+    transform: scale(2, 2);
+}

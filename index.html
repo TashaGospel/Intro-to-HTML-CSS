@@ -2,12 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <base target="_blank">
     <title>Welcome to Intro to CSS3!</title>
     <link rel="shortcut icon" href="https://www.google.com/images/icons/hpcg/poppy_red_42.gif" type="img/gif">
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 <main>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="http://aic.ac.nz" target="_blank">Auckland International College</a>
+                    <ul>
+                        <li><a href="">Page 1</a></li>
+                        <li><a href="">Page 2</a></li>
+                        <li><a href="">Page 3</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="http://google.com">Google</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
     <p>THIS IS MY MAIN CODE</p>
     <figure>
         <img src="images/rpcg-logo.svg" alt="Rollerson Park Community Garden logo" width="30%">
@@ -36,18 +55,20 @@
     <meter min="0" max="100" value="50">50%</meter>
     <progress></progress>
     <iframe src="http://umich.edu" frameborder="0" width="75%" height="400px">University of Michigan</iframe>
-    <ol>
-        <li>Vegetables</li>
-        <li>Fruit
-            <ul>
-                <li>Blueberries</li>
-                <li>Bananas</li>
-            </ul>
-        </li>
-    </ol>
+    <div class="bg-logo">
+        <ol>
+            <li>Vegetables</li>
+            <li>Fruit
+                <ul>
+                    <li>Blueberries</li>
+                    <li>Bananas</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
 </main>
 <footer>
-    <a href="http://www.umich.edu/" target="_blank">&hookrightarrow; University of Michigan</a>
+    <button><a href="http://www.umich.edu/" target="_blank">&hookrightarrow; University of Michigan</a></button>
 </footer>
 </body>
 </html>

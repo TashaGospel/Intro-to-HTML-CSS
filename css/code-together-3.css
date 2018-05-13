@@ -24,17 +24,27 @@ nav {
     font-family: Arial, "Times New Roman", sans-serif;
 }
 
+nav a {
+    display: inline-block;
+    width: 23%;
+    background: #ffffff;
+}
+
 h2 {
     color: #555555;
     background: #00b7ea;
     font-size: 1.5em;
 }
 
-section {
-    width: 30%;
+.half {
+    width: 45%;
     display: inline-block;
     float: left;
     margin-right: 2%;
+}
+
+.whole {
+    clear: both;
 }
 
 details {
@@ -56,4 +66,8 @@ img {
 
 ul {
     list-style-type: square;
+}
+
+header, footer {
+    background: linear-gradient(to top left, #666666, #2dedff);
 }
